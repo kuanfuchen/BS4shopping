@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>剁手手網站</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css"
+        integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.9.0/css/all.css"
+        integrity="sha384-i1LQnF23gykqWXg6jxC2ZbCbUMxyw5gLZY6UiUS98LYV5unm8GWmfkIS6jqJfb4E" crossorigin="anonymous">
+    <link rel="stylesheet" href="/custom.css">
+</head>
+
+<body>
+    <!-- Image and text -->
+    <nav class="navbar navbar-light bg-light">
+        <a class="navbar-brand" href="#">
+            <i class="far fa-gem mr-1"></i>
+            六角血拚買賣
+        </a>
+        <div class="dropdown">
+            <button class="btn btn-sm btn-cart" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <i class="fas fa-cart-plus fa-2x  text-secondary">
+                </i>
+                <span class="badge badge-danger">10</span>
+            </button>
+            <div class="dropdown-menu dropdown-menu-right" style="min-width: 300px">
+                <div class="px-4 px-3">
+                    <h6>選擇的物品</h6>
+                    <table class="table table-sm">
+                        <tbody>
+                            <tr>
+                                <td class="align-middle text-center">
+                                    <a href="#removeModal" class="text-muted" data-toggle="modal"
+                                        data-title="刪除 金牌西裝 1 件">
+                                        <i class="fas fa-trash-alt"></i>
+                                    </a>
+                                </td>
+                                <td class="align-middle">金牌西裝</td>
+                                <td class="align-middle">1 件</td>
+                                <td class="align-middle text-right">$520</td>
+                            </tr>
+                            <tr>
+                                <td class="align-middle text-center">
+                                    <a href="#removeModal" class="text-muted" data-toggle="modal"
+                                        data-title="刪除 金牌女裝 1 件">
+                                        <i class="fas fa-trash-alt"></i>
+                                    </a>
+                                </td>
+                                <td class="align-middle">金牌女裝</td>
+                                <td class="align-middle">1 件</td>
+                                <td class="align-middle text-right">$480</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <a href="#" class="btn btn-outline-primary btn-block">結帳去</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="jumbotron jumbotron-fluid jumbotron-bg d-flex align-items-end">
+        <div class="container">
+            <div class="bg-lighter p-3 text-center">
+                <h1 class="display-4">買到剁手手！最後出清</h1>
+                <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.
+                </p>
+            </div>
+        </div>
+    </div>
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 ">
+                    <div class="list-group sticky-top">
+                        <a href="#pane-1" class="list-group-item list-group-item-action active" data-toggle="list">
+                            金牌專賣區
+                        </a>
+                        <a href="#pane-2" class="list-group-item list-group-item-action" data-toggle="list">禮品區
+                        </a>
+                        <a href="#" class="list-group-item list-group-item-action" data-toggle="list">Morbi leo
+                            risus</a>
+                        <a href="#" class="list-group-item list-group-item-action" data-toggle="list">Porta ac
+                            consectetur ac</a>
+                        <a href="#" class="list-group-item list-group-item-action disabled"
+                            data-toggle="list">Vestibulum at eros</a>
+                    </div>
+                </div>
+                <div class="col-lg-9">
+                    <div class="tab-content">
+                        <div class="tab-pane active" id="pane-1">
+                            <div class="row">
+                                <div class="col-lg-4 mb-3 ">
+                                    <div class="card h-100 border-0 border-shadow card-btn">
+                                        <img class="card-img-top"
+                                            src="https://images.unsplash.com/photo-1486250944723-86bca2b15b06?w=1351"
+                                            alt="Card image cap">
+                                        <div class="card-body">
+                                            <h5 class="card-title">特工眼鏡</h5>
+                                            <p class="card-text">This is a wider card with supporting text below as a
+                                                natural
+                                                lead-in to additional content. This content is a little bit longer.</p>
+                                            <a href="#" class="btn btn-primary btn-block btn-a">view</a>
+                                        </div>
+                                        <div class="card-footer text-center border-top-0 bg-white">
+                                            <div class="btn-group  btn-group-sm">
+                                                <a href="#" class="btn btn-outline-secondary disabled">S</a>
+                                                <a href="#" class="btn btn-outline-secondary ">M</a>
+                                                <a href="#" class="btn btn-outline-secondary ">L</a>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 mb-3 ">
+                                    <div class="card h-100 border-0 border-shadow">
+                                        <img class="card-img-top"
+                                            src="https://images.unsplash.com/photo-1494281258937-45f28753affd?w=1350"
+                                            alt="Card image cap">
+                                        <div class="card-body">
+                                            <h5 class="card-title">金牌西裝</h5>
+                                            <p class="card-text">This is a wider card with supporting text below as a
+                                                natural
+                                                lead-in to additional content. This content is a little bit longer.</p>
+                                        </div>
+                                        <div class="card-footer text-center border-top-0 bg-white">
+                                            <div class="btn-group  btn-group-sm">
+                                                <a href="#" class="btn btn-outline-secondary btn-sm">S</a>
+                                                <a href="#" class="btn btn-outline-secondary btn-sm">M</a>
+                                                <a href="#" class="btn btn-outline-secondary btn-sm">L</a>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 mb-3 ">
+                                    <div class="card border-0 border-shadow h-100">
+                                        <img class="card-img-top"
+                                            src="https://images.unsplash.com/photo-1481399124169-87493351c8a1?w=1349"
+                                            alt="Card image cap">
+                                        <div class="card-body">
+                                            <h5 class="card-title">金牌女裝</h5>
+                                            <p class="card-text">This is a wider card with supporting text below as a
+                                                natural
+                                                lead-in to additional content. This content is a little bit longer.</p>
+                                            <p class="card-text">This is a wider card with supporting text below as a
+                                                natural
+                                                lead-in to additional content. This content is a little bit longer.</p>
+                                        </div>
+
+
+                                        <div class="card-footer text-center border-top-0 bg-white">
+                                            <div class="btn-group  btn-group-sm">
+                                                <a href="#" class="btn btn-outline-secondary btn-sm">S</a>
+                                                <a href="#" class="btn btn-outline-secondary btn-sm">M</a>
+                                                <a href="#" class="btn btn-outline-secondary btn-sm">L</a>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 mb-3 ">
+                                    <div class="card h-100 border-0 border-shadow">
+                                        <img class="card-img-top"
+                                            src="https://images.unsplash.com/photo-1497339100210-9e87df79c218?w=1350"
+                                            alt="Card image cap">
+                                        <div class="card-body">
+                                            <h5 class="card-title">特工裝</h5>
+                                            <p class="card-text">This is a wider card with supporting text below as a
+                                                natural
+                                                lead-in to additional content. This content is a little bit longer.</p>
+                                        </div>
+                                        <div class="card-footer text-center border-top-0 bg-white">
+                                            <div class="btn-group  btn-group-sm">
+                                                <a href="/shoppingCart-product.html"
+                                                    class="btn btn-outline-secondary btn-sm">S</a>
+                                                <a href="/shoppingCart-product.html"
+                                                    class="btn btn-outline-secondary btn-sm">M</a>
+                                                <a href="/shoppingCart-product.html"
+                                                    class="btn btn-outline-secondary btn-sm">L</a>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 mb-3 ">
+                                    <div class="card h-100 border-0 border-shadow">
+                                        <img class="card-img-top"
+                                            src="https://images.unsplash.com/photo-1485373650022-3ed53f62b8f3?w=634"
+                                            alt="Card image cap">
+                                        <div class="card-body">
+                                            <h5 class="card-title">變聲領帶</h5>
+                                            <p class="card-text">This is a wider card with supporting text below as a
+                                                natural
+                                                lead-in to additional content. This content is a little bit longer.</p>
+                                        </div>
+                                        <div class="card-footer text-center border-top-0 bg-white">
+
+                                            <a href="#" class="btn btn-outline-primary btn-block">購買</a>
+
+                                        </div>
+
+                                    </div>
+                                </div>
+
+
+
+                                <!-- 金牌區 -->
+
+                            </div>
+                        </div>
+                        <div class="tab-pane" id="pane-2">
+                            <div class="row">
+                                <div class="col-lg-4">
+                                    <div class="card h-100 border-0 border-shadow text-center">
+                                        <img class="card-img-top"
+                                            src="https://www.ijysheng.com/uploads/summernote/news_doc/6b31ec06.jpg"
+                                            alt="Card image cap">
+                                        <div class="card-body">
+                                            <h5 class="card-title">鳳梨酥</h5>
+                                            <p class="card-text">This is a wider card with supporting text below
+                                                as a
+                                                natural
+                                                lead-in to additional content. This content is a little bit
+                                                longer.</p>
+                                        </div>
+                                        <div class="card-footer">
+                                            <a href="#" class="btn btn-outline-primary btn-block">
+                                                選購
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4">
+                                    <div class="card h-100 border-0 border-shadow text-center">
+                                        <img class="card-img-top"
+                                            src="data:image/jpeg;base64,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"
+                                            alt="Card image cap">
+                                        <div class="card-body">
+                                            <h5 class="card-title ">蛋糕</h5>
+                                            <p class="card-text">This is a wider card with supporting text below
+                                                as a
+                                                natural
+                                                lead-in to additional content. This content is a little bit
+                                                longer.</p>
+                                        </div>
+                                        <div class="card-footer">
+                                            <a href="#" class="btn btn-outline-primary btn-block">
+                                                選購
+                                            </a>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+
+
+
+                        </div>
+
+                    </div>
+
+
+
+                </div>
+            </div>
+        </div>
+        </div>
+
+
+
+    </section>
+    <!-- footer -->
+    <footer class="py-5 bg-light mt-3">
+        <div class="mt-3">
+            <ul class="text-center d-flex justify-content-center mb-2">
+                <li>© Copright 2017 六角血拼賣賣</li>
+                <li class="ml-3"><a href="#" class="community"><i class="fab fa-instagram mr-1"></i>Instagram</a></li>
+                <li class="ml-3"><a href="#" class="community"><i class="fab fa-facebook-square mr-1"></i>Facebook</a>
+                </li>
+                <li class="ml-3"><a href="#" class="community">About</a></li>
+            </ul>
+            <p class="text-center">Made with Bootstrap4</p>
+        </div>
+
+
+    </footer>
+
+    <!-- modal -->
+    <div class="modal" tabindex="-1" role="dialog" id="removeModal">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">移去項目</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p>Modal body text goes here.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"
+        integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous">
+    </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"
+        integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous">
+    </script>
+
+</body>
+
+</html>

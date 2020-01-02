@@ -1,0 +1,100 @@
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* css reset */
+
+
+
+
+.btn-cart {
+    background-color: transparent;
+    position: relative;
+}
+
+.btn-cart .badge {
+    position: absolute;
+    top: -1px;
+    right: 5px;
+    ;
+}
+
+.dropdown-menu-right {
+    right: 0;
+    left: auto;
+}
+
+.jumbotron-bg {
+    background-image: url('https://images.unsplash.com/photo-1477901492169-d59e6428fc90?w=1350');
+    background-size: cover;
+    background-position: center center;
+    min-height: 400px;
+}
+
+.bg-lighter {
+    background-color: rgba(0, 0, 0, 0.4);
+    color: white;
+    border-radius: 5px;
+}
+
+.border-shadow {
+    box-shadow: 0 3px 5px rgb(0, 0, 0, .3)
+}
+
+.border-shadow:hover {
+    box-shadow: 0 5px 10px rgb(0, 0, 0, .5)
+}
+
+.bg-product {
+    width: 100%;
+}
+
+.btn.disabled {
+    pointer-events: none;
+}
+
+.border-radius {
+    border-radius: 50px;
+}
+
+li .community:hover {
+    color: brown;
+}
+
+.input-size {
+    zoom: 2
+}
+
+.btn-a {
+    display: none;
+}
+
+
+
+.card-btn:hover {
+    background-color: rgba(0, 0, 0, 0.05);
+
+}
+
+.card-btn:hover>a {
+    display: block;
+}
